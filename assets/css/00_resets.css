@@ -20,6 +20,7 @@ body{
   background-color: #f1f1f1; /* You can change this to suit your theme */
   position: relative;
   overflow: hidden;
+  width: 100vw;
 }
 /* End of Resets */
 

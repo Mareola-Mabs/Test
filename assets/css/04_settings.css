@@ -7,7 +7,7 @@
     cursor: pointer;
     padding: 15px;
     border-radius: 5px;
-    z-index: 10;
+    z-index: 11;
 }
 
 .settings__menu{
@@ -28,14 +28,14 @@
     padding-inline: 10px;
     gap: 5px;
     padding-block: 20px;
-    transform: translateX(150%);
+    transform: translateY(-500%);
 }
 
 
 .settings__menu.active{
     height: fit-content;
     box-shadow: 1px 1px 2px 1px var(--num-color);
-    transform: translateX(0);
+    transform: translateY(0);
 
 }
 
