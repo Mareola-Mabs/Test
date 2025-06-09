@@ -1,0 +1,97 @@
+/* The Buttons */
+
+/* Button Container */
+section.calc__buttons{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+}
+/* End of Button Container */
+
+
+
+/* Button Parent */
+section.calc__buttons-nums{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+/* End of Button Parent */
+
+/* Each Button */
+section.calc__buttons-nums .calc__buttons-nums--num{
+    background: var(--num-color);
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px 2px var(--shadow-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--num-text);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Each Button Hover */
+section.calc__buttons-nums .calc__buttons-nums--num:hover{
+    background: rgba(51, 52, 69, 1.0);
+}
+/* End of each Button */
+
+
+
+/* Operator Parent */
+section.calc__buttons-oprs{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+/* End of Operator Parent */
+
+/* Each Operator Button */
+section.calc__buttons-oprs .calc__buttons-oprs--opr{
+    background: var(--opr-color);
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px 2px var(--shadow-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--num-text);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Operator Buttons Hover */
+section.calc__buttons-oprs .calc__buttons-oprs--opr:hover{
+    background: rgba(164,97, 0, 1.0);
+}
+
+/* End of Operator Buttons */
+
+
+/* Equal to Button */
+section.calc__buttons-oprs .calc__buttons-oprs--opr:nth-of-type(7){
+    background: var(--equal-to-color);
+}
+/* End of Equal to Button */
+
+
+/* Equal to Hover */
+section.calc__buttons-oprs .calc__buttons-oprs--opr:nth-of-type(7):hover{
+    background: rgba(142, 142, 142, 1.0);
+}
+
+/* Clear Button */
+section.calc__buttons-oprs .calc__buttons-oprs--opr:last-of-type{
+    background: var(--clear-color);
+}
+
+section.calc__buttons-oprs .calc__buttons-oprs--opr:last-of-type:hover{
+    background: rgba(130, 0, 0, 1.0);
+}
+/* End of Clear Button */
+/* End of Buttons */

@@ -1,0 +1,60 @@
+/* Resets */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html{
+ height: 100%;
+}
+
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1; /* You can change this to suit your theme */
+  position: relative;
+  overflow: hidden;
+}
+/* End of Resets */
+
+
+
+
+
+/* Variables */
+:root {
+  --primary-color: rgba(37, 37, 49, 1.0);
+  --num-color: rgb(64, 66, 87);
+  --opr-color: rgba(244, 157, 26, 1.0);
+  --screen-color: rgba(58, 63, 119, 1.0);
+  --shadow-color: rgba(28, 28, 36, 1.0);
+  --equal-to-color: rgb(178, 178, 178);
+  --equal-to-text: rgba(0, 0, 0, 1.0);
+  --num-text: rgba(255, 255, 255, 1.0);
+  --clear-color: rgb(150, 0, 0);
+}
+/* End of Variables */
+
+/* Import Downloaded Fonts */
+@font-face {
+  font-family: "Mareola";
+  src: url("../fonts/Technology.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Mareola";
+  src: url("../fonts/Technology-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Mareola1";
+  src: url("../fonts/digital-7.ttf") format("truetype");
+  font-weight: normal;
+}
+/* End of Downloaded Fonts */

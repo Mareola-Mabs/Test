@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+
+    <title>Calculator</title>
+    <!-- TODO: update page title -->
+
+    <meta name="description" content="Calculator-App" />
+    <!-- TODO: update meta description -->
+    <meta name="author" content="Ibukunola Oreoluwa Mabawonku, Mareola" />
+    <!-- TODO: update meta description -->
+    <meta property="og:title" content="Home - Page" />
+    <!-- TODO: update og:title -->
+    <meta property="og:url" content="" />
+    <!-- TODO: update og:url -->
+    <meta property="og:description" content="calculator" />
+    <!-- TODO: update og:description -->
+    <meta property="og:image" content="" />
+    <!-- TODO: og:image -->
+    <meta property="og:image:alt" content="OG Image Description" />
+    <!-- TODO: update og:image:alt -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="" />
+    <!-- TODO: update twitter:card -->
+    <link rel="canonical" href="" />
+    <!-- TODO: update canonical link -->
+    <link rel="icon" href="" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- <link rel="manifest" href="site.webmanifest"> TODO: update web app manifest file -->
+    <!-- <meta name="theme-color" content="#FF00FF"> TODO: update meta theme color -->
+    <!-- <link rel="icon" href="" type="image/svg+xml"> -->
+    <!-- <link rel="stylesheet" href="" media=""> -->
+
+    <!-- Resets -->
+    <link rel="stylesheet" href="./assets/css/00_resets.css" />
+
+    <!-- Body Styling -->
+    <link rel="stylesheet" href="./assets/css/01_body.css" />
+
+    <!-- Keypad Styling -->
+    <link rel="stylesheet" href="./assets/css/03_buttons.css" />
+
+    <!-- Screen Styling -->
+    <link rel="stylesheet" href="./assets/css/02_screen.css" />
+
+     <!-- Settings Styling -->
+    <link rel="stylesheet" href="./assets/css/04_settings.css" />
+
+  </head>
+
+  <body>
+    <!-- Content -->
+
+     <!-- Settings & Menu -->
+      <div class="settings">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path fill="currentColor" d="m9.25 22l-.4-3.2q-.325-.125-.612-.3t-.563-.375L4.7 19.375l-2.75-4.75l2.575-1.95Q4.5 12.5 4.5 12.338v-.675q0-.163.025-.338L1.95 9.375l2.75-4.75l2.975 1.25q.275-.2.575-.375t.6-.3l.4-3.2h5.5l.4 3.2q.325.125.613.3t.562.375l2.975-1.25l2.75 4.75l-2.575 1.95q.025.175.025.338v.674q0 .163-.05.338l2.575 1.95l-2.75 4.75l-2.95-1.25q-.275.2-.575.375t-.6.3l-.4 3.2zm2.8-6.5q1.45 0 2.475-1.025T15.55 12t-1.025-2.475T12.05 8.5q-1.475 0-2.488 1.025T8.55 12t1.013 2.475T12.05 15.5"/></svg>
+      </div>
+
+      <div class="settings__menu">
+        <p>Background</p>
+        <hr style="width: 100%; height: 0px; border: 1px solid #fff;">
+        <section class="colors">
+          <div class="default" data-value="#f1f1f1" title=default></div>
+          <div class="red" data-value="red" title="red"></div>
+          <div class="blue" data-value="blue" title="blue"></div>
+          <div class="dark" data-value="#1f1919" title="dark"></div>
+        </section>
+
+        <p>Sound</p>
+        <hr style="width: 100%; height: 0px; border: 1px solid #fff;">
+        <section class="switch" draggable="false">
+          <div class="switch__ctrl" draggable="true">ON</div>
+        </section>
+      </div>
+     <!-- End of Settings & Menu -->
+
+
+
+    <main class="calc">
+      <section class="calc__screen">
+        <input type="text" name="" id="screen" value="88888888888" disabled readonly>
+      </section>
+
+      <section class="calc__buttons">
+        <section class="calc__buttons-nums">
+          <div class="calc__buttons-nums--num">1</div>
+          <div class="calc__buttons-nums--num">2</div>
+          <div class="calc__buttons-nums--num">3</div>
+          <div class="calc__buttons-nums--num">4</div>
+          <div class="calc__buttons-nums--num">5</div>
+          <div class="calc__buttons-nums--num">6</div>
+          <div class="calc__buttons-nums--num">7</div>
+          <div class="calc__buttons-nums--num">8</div>
+          <div class="calc__buttons-nums--num">9</div>
+          <div class="calc__buttons-nums--num">.</div>
+          <div class="calc__buttons-nums--num">0</div>
+          <div class="calc__buttons-nums--num" id="delBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-3 12.59L17.59 17L14 13.41L10.41 17L9 15.59L12.59 12L9 8.41L10.41 7L14 10.59L17.59 7L19 8.41L15.41 12"
+              />
+            </svg>
+          </span>
+        </section>
+
+        <section class="calc__buttons-oprs">
+          <div class="calc__buttons-oprs--opr">x</div>
+          <div class="calc__buttons-oprs--opr">÷</div>
+          <div class="calc__buttons-oprs--opr">+</div>
+          <div class="calc__buttons-oprs--opr">-</div>
+          <div class="calc__buttons-oprs--opr">%</div>
+          <div class="calc__buttons-oprs--opr">^</div>
+          <div class="calc__buttons-oprs--opr">=</div>
+          <div class="calc__buttons-oprs--opr" id="clearBtn">C</div>
+        </section>
+      </section>
+    </main>
+    <!-- End of Content -->
+
+    <!-- Scripts -->
+    <script src="./assets/js/00_fx.js" defer></script>
+    <script src="./assets/js/01_app.js" defer></script>
+    <script src="./assets/js/02_settings.js" defer></script>
+    <!-- TODO: Update app entry point -->
+  </body>
+</html>

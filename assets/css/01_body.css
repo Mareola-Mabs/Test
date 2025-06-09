@@ -1,0 +1,11 @@
+/* Calculator's Body (Main) */
+main.calc{
+    background: var(--primary-color);
+    width: 400px;
+    height: 367px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+/* End of Calculator's Body (Main) */
