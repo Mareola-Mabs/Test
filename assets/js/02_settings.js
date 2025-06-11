@@ -38,21 +38,21 @@ colors[0].addEventListener("click", ()=>{
 colors[1].addEventListener("click", ()=>{
     document.body.style.background = colors[1].dataset.value
     colors[1].style.border ="3px solid rgb(7, 238, 7)"
-    colors[0].style.border =""
+    colors[0].style.border ="none"
     colors[2].style.border =""
     colors[3].style.border =""
 })
 colors[2].addEventListener("click", ()=>{
     document.body.style.background = colors[2].dataset.value
     colors[2].style.border ="3px solid rgb(7, 238, 7)"
-    colors[0].style.border =""
+    colors[0].style.border ="none"
     colors[1].style.border =""
     colors[3].style.border =""
 })
 colors[3].addEventListener("click", ()=>{
     document.body.style.background = colors[3].dataset.value
     colors[3].style.border ="3px solid rgb(7, 238, 7)"
-    colors[0].style.border =""
+    colors[0].style.border ="none"
     colors[2].style.border =""
     colors[1].style.border =""
 })

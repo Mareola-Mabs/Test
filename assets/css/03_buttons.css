@@ -21,7 +21,7 @@ section.calc__buttons-nums{
 /* End of Button Parent */
 
 /* Each Button */
-section.calc__buttons-nums .calc__buttons-nums--num{
+section.calc__buttons-nums .calc__buttons-nums--num,#delBtn{
     background: var(--num-color);
     border-radius: 25px;
     box-shadow: 2px 2px 4px 2px var(--shadow-color);
@@ -35,7 +35,7 @@ section.calc__buttons-nums .calc__buttons-nums--num{
 }
 
 /* Each Button Hover */
-section.calc__buttons-nums .calc__buttons-nums--num:hover{
+section.calc__buttons-nums .calc__buttons-nums--num:hover,#delBtn:hover{
     background: rgba(51, 52, 69, 1.0);
 }
 /* End of each Button */

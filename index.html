@@ -73,7 +73,7 @@
         <p>Sound</p>
         <hr style="width: 100%; height: 0px; border: 1px solid #fff;">
         <section class="switch" draggable="false">
-          <div class="switch__ctrl" draggable="true">ON</div>
+          <div class="switch__ctrl" draggable="false">ON</div>
         </section>
       </div>
      <!-- End of Settings & Menu -->
@@ -82,7 +82,8 @@
 
     <main class="calc">
       <section class="calc__screen">
-        <input type="text" name="" id="screen" value="88888888888" disabled readonly>
+        <input type="text" name="" value="8888888888888" disabled readonly style="color: rgba(128, 128, 128, 0.1);">
+        <input type="text" name="" id="screen" value="8888888888888" disabled readonly style="background: transparent;">
       </section>
 
       <section class="calc__buttons">
@@ -98,7 +99,7 @@
           <div class="calc__buttons-nums--num">9</div>
           <div class="calc__buttons-nums--num">.</div>
           <div class="calc__buttons-nums--num">0</div>
-          <div class="calc__buttons-nums--num" id="delBtn">
+          <div class="calc__buttons-num--num" id="delBtn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -114,13 +115,13 @@
         </section>
 
         <section class="calc__buttons-oprs">
-          <div class="calc__buttons-oprs--opr">x</div>
-          <div class="calc__buttons-oprs--opr">÷</div>
-          <div class="calc__buttons-oprs--opr">+</div>
-          <div class="calc__buttons-oprs--opr">-</div>
-          <div class="calc__buttons-oprs--opr">%</div>
-          <div class="calc__buttons-oprs--opr">^</div>
-          <div class="calc__buttons-oprs--opr">=</div>
+          <div class="calc__buttons-oprs--opr" id="multiply">x</div>
+          <div class="calc__buttons-oprs--opr" id="divide">÷</div>
+          <div class="calc__buttons-oprs--opr" id="add">+</div>
+          <div class="calc__buttons-oprs--opr" id="subtract">-</div>
+          <div class="calc__buttons-oprs--opr" id="percent">%</div>
+          <div class="calc__buttons-oprs--opr" id="raise">^</div>
+          <div class="calc__buttons-oprs--opr" id="equals">=</div>
           <div class="calc__buttons-oprs--opr" id="clearBtn">C</div>
         </section>
       </section>
@@ -131,6 +132,7 @@
     <script src="./assets/js/00_fx.js" defer></script>
     <script src="./assets/js/01_app.js" defer></script>
     <script src="./assets/js/02_settings.js" defer></script>
+    <script src="./assets/js/03_keypress.js" defer type="text/javascript"></script> <!-- Incoming Feature -->
     <!-- TODO: Update app entry point -->
   </body>
 </html>

@@ -21,6 +21,8 @@ body{
   position: relative;
   overflow: hidden;
   width: 100vw;
+  box-sizing: border-box;
+
 }
 /* End of Resets */
 
@@ -56,6 +58,32 @@ body{
 @font-face {
   font-family: "Mareola1";
   src: url("../fonts/digital-7.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Mareola2";
+  src: url("../fonts/14-segment-led/14\ Segment\ LED\ Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Mareola3";
+  src: url("../fonts/crashed-scoreboard/Crashed\ Scoreboard.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Mareola4";
+  src: url("../fonts/digital-counter-7/digital_counter_7.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Mareola5";
+  src: url("../fonts/digital-dismay/Digital\ Dismay.otf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Mareola6";
+  src: url("../fonts/digital-readout/TrueType/SFDigitalReadout-Heavy.ttf") format("truetype");
   font-weight: normal;
 }
 /* End of Downloaded Fonts */

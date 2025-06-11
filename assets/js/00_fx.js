@@ -56,3 +56,23 @@ mouseUpNum(calc_nums)
 
 mouseDownNum(calc_opr)
 mouseUpNum(calc_opr)
+
+
+// // Shadow and Sound FX for Del Button
+delBtn.addEventListener("mousedown", ()=>{
+    delBtn.style.boxShadow = shadows.numShadowActive
+    if (k%2 == 0){
+        audioUp.pause()
+        audioUp.currentTime = 0
+        audioDown.play()
+    }
+
+})
+delBtn.addEventListener("mouseup", ()=>{
+    delBtn.style.boxShadow = shadows.numShadow
+    if (k%2 == 0){
+        audioDown.pause()
+        audioDown.currentTime = 0
+        audioUp.play()
+    }
+})
