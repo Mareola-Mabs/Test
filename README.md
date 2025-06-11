@@ -10,7 +10,8 @@ This is a simple and fun calculator built as my ALTSchool Africa First Semester 
 - 🔊 **Sound Effects:** Hear satisfying sounds for every button press.
 - 🧼 **Clear Button:** Reset the entire calculation in one click.
 - ⌫ **Delete Button:** Remove the last digit or character from your input.
-- 📘 **Delete Button:** History section to show past computations.
+- 📘 **History Buttons:** History section to show past computations.
+- ⌨️​ **Keypress Feature:** Use keyboard numeric keys to input values.
 - 😄 **Fun UI:** Engaging, animated, and user-friendly interface for a smooth experience.
 - 🔢 **Basic Operations:** Perform addition, subtraction, multiplication, and division.
 - 📱 **Responsive Design:** Works perfectly on mobile and desktop screens.
@@ -23,7 +24,7 @@ This is a simple and fun calculator built as my ALTSchool Africa First Semester 
 
 ## 📷 Screenshot
 
-![Calculator Screenshot](./assets/images/calcImage.png)
+![Calculator Screenshot](./assets/images/calcImage1.png)
 
 ## 📝 How to Use
 
