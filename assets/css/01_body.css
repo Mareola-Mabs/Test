@@ -6,6 +6,6 @@ main.calc{
     padding: 25px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 10px;
 }
 /* End of Calculator's Body (Main) */

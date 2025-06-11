@@ -13,6 +13,9 @@ const calc_opr = document.querySelectorAll(".calc__buttons-oprs--opr")
 const audioDown = new Audio("./assets/FX/buttondown.mp3")
 const audioUp = new Audio("./assets/FX/buttonup.mp3")
 
+const historyAudio = new Audio("./assets/FX/historyBtn.mp3")
+
+
 
 
 

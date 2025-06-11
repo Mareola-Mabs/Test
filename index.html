@@ -80,12 +80,26 @@
 
 
 
+    <!-- Calcuclator -->
     <main class="calc">
+
+      <!-- Screen -->
       <section class="calc__screen">
         <input type="text" name="" value="8888888888888" disabled readonly style="color: rgba(128, 128, 128, 0.1);">
         <input type="text" name="" id="screen" value="8888888888888" disabled readonly style="background: transparent;">
       </section>
 
+      <!-- History Btns -->
+      <section class="history__btn">
+        <div class="history__btn-back">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M21.409 9.353a2.998 2.998 0 0 1 0 5.294L8.597 21.614C6.534 22.737 4 21.277 4 18.968V5.033c0-2.31 2.534-3.769 4.597-2.648z"/></svg>
+        </div>
+        <div class="history__btn-fwr">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M21.409 9.353a2.998 2.998 0 0 1 0 5.294L8.597 21.614C6.534 22.737 4 21.277 4 18.968V5.033c0-2.31 2.534-3.769 4.597-2.648z"/></svg>
+        </div>
+      </section>
+
+      <!-- Keypad -->
       <section class="calc__buttons">
         <section class="calc__buttons-nums">
           <div class="calc__buttons-nums--num">1</div>
@@ -129,10 +143,11 @@
     <!-- End of Content -->
 
     <!-- Scripts -->
-    <script src="./assets/js/00_fx.js" defer></script>
-    <script src="./assets/js/01_app.js" defer></script>
-    <script src="./assets/js/02_settings.js" defer></script>
-    <script src="./assets/js/03_keypress.js" defer type="text/javascript"></script> <!-- Incoming Feature -->
+    <script src="./assets/js/00_fx.js" defer></script> <!-- Sound FX -->
+    <script src="./assets/js/01_app.js" defer></script> <!-- Main File -->
+    <script src="./assets/js/02_settings.js" defer></script> <!-- Settings & Navigation -->
+    <script src="./assets/js/03_history.js" defer type="text/javascript"></script> <!-- History Feature -->
+    <script src="./assets/js/04_keypress.js" defer type="text/javascript"></script> <!-- Incoming Feature -->
     <!-- TODO: Update app entry point -->
   </body>
 </html>

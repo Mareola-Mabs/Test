@@ -149,14 +149,19 @@ equals.addEventListener("click", ()=>{
         else if (i > 1 && screen.value.length <= 12){
             try{
                 let answer = eval(screen.value)
+
                 if (answer === NaN){
                     screen.value = "Error"
                 }
-                else if (answer.length >= 13){
+                else if (answer.toString().length >= 13){
                     screen.value = "BIGNUM"
+                    answer = "BIGNUM"
                 }
                 else{
+                    his++
                     screen.value = answer
+                    history[his] = answer
+                    hisBack = (history.length - 1)
                 }
             }
             catch(error){
@@ -167,6 +172,9 @@ equals.addEventListener("click", ()=>{
 
             
             
+        }
+        else{
+            screen.value ="BIG NUM"
         }
         
 })

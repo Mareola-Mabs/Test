@@ -94,4 +94,32 @@ section.calc__buttons-oprs .calc__buttons-oprs--opr:last-of-type:hover{
     background: rgba(130, 0, 0, 1.0);
 }
 /* End of Clear Button */
+
+/* History Buttons */
+.history__btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.history__btn .history__btn-back{
+    transform: rotate(180deg);
+    color: grey;
+    cursor: pointer;
+    color: var(--num-color);
+    
+}
+
+.history__btn .history__btn-fwr{
+    margin-top: 8px;
+    color: grey;
+    cursor: pointer;
+    color: var(--num-color);
+
+}
+/* End of History Buttons */
+
 /* End of Buttons */
