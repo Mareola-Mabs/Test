@@ -122,4 +122,29 @@ section.calc__buttons-oprs .calc__buttons-oprs--opr:last-of-type:hover{
 }
 /* End of History Buttons */
 
+@media screen and (max-width:400px){
+section.calc__buttons{
+    width: 300px;
+}
+
+
+section.calc__buttons-nums .calc__buttons-nums--num,#delBtn{
+    font-size: 1rem;
+
+}
+
+section.calc__buttons-oprs .calc__buttons-oprs--opr{
+    font-size: 1rem;
+}
+
+section.calc__buttons-nums{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+
+}
+
 /* End of Buttons */

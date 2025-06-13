@@ -8,4 +8,12 @@ main.calc{
     flex-direction: column;
     gap: 10px;
 }
+
+/* For Smaller Screens */
+@media screen and (max-width:400px){
+    main.calc{
+        width: 350px;
+        height: 320px;
+    }
+}
 /* End of Calculator's Body (Main) */
